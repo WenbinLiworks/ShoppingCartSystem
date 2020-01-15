@@ -11,6 +11,6 @@
  
 The "add" button adds the new goods to the shopping cart, and the new goods are displayed in the shopping cart list. The warehouse list refreshes the inventory of the new goods in the shopping cart in real time;
 <br><br>"Delete" button will delete the goods in the current line in the shopping cart list from the shopping cart, and the warehouse list will update the line of the corresponding goods.
-<br>Update the shopping cart table Sales.Shoppingcartitem and inventory table Production. productinventory in the database when adding and deleting operations.
+<br>Update the shopping cart table Sales.ShoppingCartItem and inventory table Production. ProductInventory in the database when Adding and Deleting operations.
 
 <br>The number of items added to the cart is reflected in the inventory, that is, the inventory minus the number of items in the cart. <br>The stored procedure is used to update the two tables and encapsulate the operations in one transaction. <br><br> test the success and failure status of each operation.
