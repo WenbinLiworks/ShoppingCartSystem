@@ -6,7 +6,7 @@
 ![userInterface](https://cl.ly/83b6d61af0b6/%255B50f6cb36104351a4de972db0649a0e2c%255D_Image%2525202020-01-16%252520at%2525201.21.06%252520AM.png)
 
 
-## 实验内容:
+## Overview:
  #### In the upper part of the window, input the information of the goods to be put into the shopping cart, and the lower part displays the list of the goods in the current shopping cart (the warehouse inventory list has been added in the experiment). 
  
 The "add" button adds the new goods to the shopping cart, and the new goods are displayed in the shopping cart list. The warehouse list refreshes the inventory of the new goods in the shopping cart in real time;
