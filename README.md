@@ -1,6 +1,16 @@
 # ShoppingCartSystem
+# Attention : The Sourcecode was lost because of the Disk Cleanup without preparation.<br>And only developer document was left.
 ### A shoppingCart Management System, with the implementation of interaction between User Interface and Adventureworks2012
+
+### The final User Interface is as follows:
+![userInterface](https://cl.ly/83b6d61af0b6/%255B50f6cb36104351a4de972db0649a0e2c%255D_Image%2525202020-01-16%252520at%2525201.21.06%252520AM.png)
 
 
 ## 实验内容:
- #### 窗口的上方输入将要放入购物车的货品的信息，下方显示当前购物车的货品的列表(实验中增加了仓库库存列表)。<br>“Add” 按钮将新的货品添加到购物车中，购物车列表中显示新增的货品，仓库列表实时刷新购物车新增商品后对应商品的库存; <br>“Delete” 按钮将购物车列表中当前行的货品从购物车中删除, 仓库列表更新相应商品所在行。<br>添加与删除操作时更新数据库中的购物车表 Sales.ShoppingCartItem 和库存表 Production.ProductInventory。<br><br>购物车中增加货品的数量反映在库存中，即库存中减去购物车的货品数。<br> 使用存储过程完成两个表的更新操作，并将操作封装在一个事务中。<br> <br> 测试每个操作的成功与失败状态。
+ #### In the upper part of the window, input the information of the goods to be put into the shopping cart, and the lower part displays the list of the goods in the current shopping cart (the warehouse inventory list has been added in the experiment). 
+ 
+The "add" button adds the new goods to the shopping cart, and the new goods are displayed in the shopping cart list. The warehouse list refreshes the inventory of the new goods in the shopping cart in real time;
+<br><br>"Delete" button will delete the goods in the current line in the shopping cart list from the shopping cart, and the warehouse list will update the line of the corresponding goods.
+<br>Update the shopping cart table Sales.Shoppingcartitem and inventory table Production. productinventory in the database when adding and deleting operations.
+
+<br>The number of items added to the cart is reflected in the inventory, that is, the inventory minus the number of items in the cart. <br>The stored procedure is used to update the two tables and encapsulate the operations in one transaction. <br><br> test the success and failure status of each operation.
