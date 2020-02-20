@@ -2,6 +2,13 @@
 # Attention : The Sourcecode was lost because of the Disk Cleanup without preparation.<br>And only developer document was left.
 ### A shoppingCart Management System, with the implementation of interaction between User Interface and Adventureworks2012
 
+### The basic operations on Database(add system admins)
+You can grant permission to log in to operate the database in the following ways:
+(1) Add login to the server role. For example, by adding a login to the sysadmin server role, the login has full operational rights to all databases.
+(2) Map the login to a user of a database, and add the mapped user to the database role with corresponding operation permission.
+(3) Mapping a login to a user of a database, granting that user the right to operate on certain database objects.
+<br>Among them, method 1 and method 2 are implicit authorization operations, sometimes these methods will grant too many permissions to login. Method 3 is a more detailed authorization operation.
+
 ### The final User Interface is as follows:
 ![userInterface](https://cl.ly/83b6d61af0b6/%255B50f6cb36104351a4de972db0649a0e2c%255D_Image%2525202020-01-16%252520at%2525201.21.06%252520AM.png)
 ### ShoppingCart Section : Control Plugins and Main window
